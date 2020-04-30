@@ -1,0 +1,50 @@
+title: Site
+
+columns:
+  # The first column has one section for the subpages of the `photography` page in card layout
+  # It reuses the pages section defined in `/site/blueprints/sections/albums.yml`
+  - width: 1/2
+    fields:
+      headers:
+        label: General Site Settings
+        type: headline
+      image_logo:
+        type: files
+        label: Logo image
+        max: 1
+        multiple: false
+        template: image
+        layout: cards
+
+      footer_text:
+        label: Footer text
+        type: textarea
+      pixel:
+        label: Facebook Pixel Code Script
+        type: textarea
+        buttons: false
+        counter: false
+        spellcheck: false
+        font: monospace
+
+      google_analytics:
+        label: Google Analytics Code Script
+        type: textarea
+        buttons: false
+        counter: false
+        spellcheck: false
+        font: monospace
+
+
+  # The second column has two sections, `notes` and `pages`
+  - width: 1/2
+    sections:
+      published:
+        type: pages
+        image:
+          query: page.image_cover
+          cover: true
+        status: published
+        headline: Pages
+
+

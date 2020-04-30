@@ -1,0 +1,17 @@
+type: group
+fields:
+  page_title:
+    label: Page title
+    type: text
+  meta_title:
+    label: Meta title
+    type: text
+  meta_desc:
+    label: Meta description
+    type: text
+  noindex:
+    label: Set page as noIndex?
+    type: toggle
+    text:
+        - 'No'
+        - 'Yes'

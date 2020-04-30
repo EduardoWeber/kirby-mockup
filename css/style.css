@@ -1,0 +1,146 @@
+body, html {
+    width: 100%;
+    margin: 0;
+}
+
+#header {
+    min-height: 106px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.712);
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    margin-left: 65px;
+    height: 100%;
+    text-align: center
+}
+
+.header-nav {
+    margin-right: 65px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.header-nav-mobile {
+    margin-right: 65px;
+    height: 100%;
+    align-self: center;
+    font-size: 18px;
+}
+
+.header-nav .button {
+    min-width: 100px;
+    padding: 0 10px;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+    color: #000066;
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.header-nav .button:hover::after {
+    content: "";
+    width: 20%;
+    display: block;
+    border-bottom: 1px solid;
+    margin: 0px auto;
+    border-bottom-color: #000066;
+}
+
+
+
+
+
+
+#image-container {
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+#image-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+#image-text {
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 5vw;
+    letter-spacing: 10px;
+    font-size: 3vw;
+    -webkit-font-smoothing: antialiased;
+}
+
+#image-text::after {
+    width: 60%;
+    content: "";
+    display: block;
+    border-bottom: 2px solid;
+    margin: 0px auto;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 106px;
+}
+
+#content-text {
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+    font-size: 16px;
+    color: #373737;
+    padding: 65px;
+}
+
+
+#form {
+    text-align: center;
+}
+
+#form .text-input {
+    width: 85%;
+    margin-top: 7px;
+    padding: 9px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    background: #CCCCCC;
+}
+
+#form .input-button {
+    padding: 7px 28px 7px 28px;
+    margin: 10px 10px 0 0;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    border: none;
+    cursor: pointer;
+    background: #999999;
+}
+
+
+footer {
+    padding: 65px;
+    margin: 0;
+    font-family: Arial, Helvetica, Geneva, sans-serif;;
+    background-color: #000066;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer {
+    color: white;
+}

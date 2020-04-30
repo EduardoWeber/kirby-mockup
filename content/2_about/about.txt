@@ -1,0 +1,43 @@
+Title: Contact Us
+
+----
+
+Image-cover:
+
+- contact-us.png
+
+----
+
+Image-text: 
+
+----
+
+Text:
+
+**BeMo Academic Consulting Inc.**
+**Toll Free:** 1-855-900-BeMo (2366)
+**Email:** info@bemoacademicconsulting.com
+
+----
+
+Toggle: true
+
+----
+
+Form-email: eduardo-felipe-weber@hotmail.com
+
+----
+
+Page-title: Contact Us
+
+----
+
+Meta-title: 
+
+----
+
+Meta-desc: 
+
+----
+
+Noindex: true
