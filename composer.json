@@ -1,27 +1,14 @@
 {
-    "name": "getkirby/plainkit",
-    "description": "Kirby Plainkit",
-    "type": "project",
-    "keywords": ["kirby", "cms", "starterkit"],
-    "homepage": "https://getkirby.com",
+    "name": "eduardofw/bemo",
+    "require": {
+        "php": "^7.3",
+        "ext-mbstring": "^7.3",
+        "ext-curl": "^7.3"
+    },
     "authors": [
         {
-            "name": "Bastian Allgeier",
-            "email": "bastian@getkirby.com",
-            "homepage": "https://getkirby.com"
+            "name": "EduardoWeber",
+            "email": "eduardo-felipe-weber@hotmail.com"
         }
-    ],
-    "support": {
-        "email": "support@getkirby.com",
-        "issues": "https://github.com/getkirby/starterkit/issues",
-        "forum": "https://forum.getkirby.com",
-        "source": "https://github.com/getkirby/starterkit"
-    },
-    "require": {
-        "php": ">=7.1.0",
-        "getkirby/cms": "^3.0"
-    },
-    "config": {
-        "optimize-autoloader": true
-    }
+    ]
 }
